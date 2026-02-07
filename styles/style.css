@@ -45,12 +45,13 @@ h3,
 h4,
 h5,
 h6 {
-  color: #e0b6a8;
+  color: #ffffff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-wrap: balance;
 }
 
 h1 {
+  text-align: center;
   font-size: 2.4rem;
   font-weight: 400;
   line-height: 2.5rem;
@@ -79,8 +80,9 @@ h4 {
 }
 
 button {
+  text-align: center;
   padding: 0.75rem 1rem;
-  background-color: #281717;
+  background-color: #ffffff;
   color: #418ab8;
   border-radius: 0.75rem;
   border: none;
@@ -107,7 +109,7 @@ section.page-section {
   padding: 1rem 1.5rem;
 }
 #page-header .logo {
-  color: #e0b6a8;
+  color: #ffffff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: none;
   font-size: 1.333rem;
@@ -115,4 +117,8 @@ section.page-section {
   line-height: 1.5rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5;
+}
+
+.banner {
+  background-image: url(https://imagizer.imageshack.com/img924/4875/ygWgvQ.png);
 }
